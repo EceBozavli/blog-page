@@ -1,0 +1,262 @@
+body {
+  font-family: system-ui;
+  color: #212121;
+  line-height: 28px;
+  padding-top: 80px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.container {
+  width: 1110px;
+  margin-inline: auto;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -0.4px;
+  margin-bottom: 28px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 32px;
+  gap: 48px;
+}
+.nav {
+  display: flex;
+  gap: 48px;
+  
+}
+
+.nav a {
+  color: #212121;
+  text-decoration: none;
+}
+
+.header-icons {
+  display: flex;
+  gap: 48px;
+}
+
+.user-info a {
+  text-decoration: none;
+  color: #212121;
+}
+
+.user-info img {
+  vertical-align: middle;
+  margin-right: 8px;
+}
+.writer-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #52647c;
+  font-size: 14px;
+  line-height: 24px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #eaeaea;
+  margin-bottom: 44px;
+}
+
+.writer-info img {
+  vertical-align: middle;
+  margin-right: 8px;
+}
+.social-media {
+  display: flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+.blog-large-image {
+  display: block;
+  border-radius: 12px;
+  margin-bottom: 24px;
+}
+
+p {
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 30px;
+  line-height: 37px;
+  letter-spacing: -0.35px;
+  margin-bottom: 32px;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 16px;
+}
+
+.quote {
+  background-color: #ecf1f8;
+  padding: 96px 120px;
+  text-align: center;
+  border-radius: 12px;
+  margin-block: 80px;
+}
+
+.quote h2 {
+  margin-bottom: 16px;
+}
+
+.quote h3 {
+  margin-bottom: 0;
+}
+
+.highlight {
+  margin-block: 80px;
+}
+
+.img-left {
+  float: left;
+  margin-right: 24px;
+}
+
+.img-right {
+  float: right;
+  margin-left: 24px;
+}
+
+h4 {
+  margin-top: 128px;
+  font-family: 'Montserrat';
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+}
+
+.perfect-smoothie {
+  width: 354px;
+  height: 393px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  box-shadow: 0px 8px 24px 0px #28293D14;
+  padding: 16px;
+  border-radius: 6px;
+}
+.phone {
+  box-shadow: 0px 8px 24px 0px #28293D14;
+  padding: 16px;
+  border-radius: 6px;
+}
+.head-phone {
+  box-shadow: 0px 8px 24px 0px #28293D14;
+  padding: 16px;
+  border-radius: 6px;
+}
+.perfect-smoothie img {
+  padding: 16px;
+  /*margin-inline: 16px;
+  padding-top: 16px;*/
+  background: #D8D8D800;
+  border-radius: 20px;
+  width: 322px;
+  height: 235px;
+  opacity: 0.1px;
+}
+
+.perfect-smoothie h4 {
+  margin-top: 16px;
+  margin-inline: 16px;
+  font-family: 'Montserrat';
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+  color: #212121;
+}
+
+.perfect-smoothie p {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #52647C;
+  margin-inline: 16px;
+  margin-bottom: 24px;
+}
+
+.hr {
+  margin-top: 80px;
+  background: #EAEAEA;
+  width: 1440px;
+}
+.last-chapter {
+  margin-left: 100px;
+  margin-top: 152px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+}
+.links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+.last-chapter h6 {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+}
+.last-chapter a {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #807E7E;
+  text-decoration: none;
+
+}
+
+/*.update p {
+  margin-top: -50px;
+  font-family: 'Open Sans';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: right;
+}
+.enter {
+  width: 354px;
+  height: 48px;
+  padding: 1px 1px 1.09px 16px;
+  border-radius: 3px 0px 0px 0px;
+  border: 1px solid #EAEAEA
+}
+.enter input {
+  width: 354px;
+  height: 48px;
+  padding: 1px 1px 1.09px 16px;
+  border: none;
+}
+.update button {
+  background-color: #0D6EFD;
+  border-color: #0D6EFD;
+  width: 63px;
+  height: 45.91px;
+  border-radius: 0px 2px 2px 0px;
+  
+
+}*/
